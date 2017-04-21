@@ -11,9 +11,8 @@ module.exports = {
             srcDir: 'dist',
             import: [
               'js/framework7.js',
-              'js/framework7.js.map',
-              ...this.themeFiles
-            ]
+              'js/framework7.js.map'
+            ].concat(this.themeFiles)
           };
       }
     }
